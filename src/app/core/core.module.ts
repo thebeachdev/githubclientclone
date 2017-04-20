@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MdCardModule } from '@angular/material';
+import {MdToolbarModule} from '@angular/material';
 
 import { CoreRoutingModule } from './core-routing.module';
 import { AboutPageComponent } from './about-page/about-page.component';
@@ -14,6 +15,7 @@ import { NavHeaderComponent } from './nav-header/nav-header.component';
   imports: [
     CommonModule,
     MdCardModule,
+    MdToolbarModule,
     CoreRoutingModule
   ],
   declarations: [AboutPageComponent,
