@@ -10,7 +10,6 @@ import { HomePageComponent } from './home-page/home-page.component';
 import { NotFoundPageComponent } from './not-found-page/not-found-page.component';
 import { NavFooterComponent } from './nav-footer/nav-footer.component';
 import { NavHeaderComponent } from './nav-header/nav-header.component';
-
 @NgModule({
   imports: [
     CommonModule,
@@ -22,7 +21,8 @@ import { NavHeaderComponent } from './nav-header/nav-header.component';
                 PricingPageComponent,
                    HomePageComponent,
                 NotFoundPageComponent,
-                NavFooterComponent,
-                NavHeaderComponent]
+                NavHeaderComponent,
+                NavFooterComponent],
+  exports:[NavHeaderComponent, NavFooterComponent],
 })
 export class CoreModule { }
