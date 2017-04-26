@@ -5,12 +5,24 @@ import { HttpModule } from '@angular/http';
 import { CoreModule } from './core/core.module';
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
+import { AngularFireModule } from 'angularfire2';
+
+export const firebaseConfig = {
+  apiKey: "AIzaSyA_9uYS1EviBA3-bJ_chRbp27wTDnV1rH0",
+  authDomain: "showmetherepos-2e7e2.firebaseapp.com",
+  databaseURL: "https://showmetherepos-2e7e2.firebaseio.com",
+  projectId: "showmetherepos-2e7e2",
+  storageBucket: "showmetherepos-2e7e2.appspot.com",
+  messagingSenderId: "514045445611"
+};
+
 @NgModule({
   declarations: [
     AppComponent,
   ],
   imports: [
     BrowserModule,
+    AngularFireModule.initializeApp(firebaseConfig),
     FormsModule,
     HttpModule,
     CoreModule,
