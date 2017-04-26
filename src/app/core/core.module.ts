@@ -1,7 +1,5 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { MdCardModule } from '@angular/material';
-import {MdToolbarModule} from '@angular/material';
 
 import { CoreRoutingModule } from './core-routing.module';
 import { AboutPageComponent } from './about-page/about-page.component';
@@ -11,11 +9,10 @@ import { HomePageComponent } from './home-page/home-page.component';
 import { NotFoundPageComponent } from './not-found-page/not-found-page.component';
 import { NavFooterComponent } from './nav-footer/nav-footer.component';
 import { NavHeaderComponent } from './nav-header/nav-header.component';
+import { LoginPageComponent } from './login-page/login-page.component';
 @NgModule({
   imports: [
     CommonModule,
-    MdCardModule,
-    MdToolbarModule,
     CoreRoutingModule
   ],
   declarations: [AboutPageComponent,
@@ -24,7 +21,8 @@ import { NavHeaderComponent } from './nav-header/nav-header.component';
                    HomePageComponent,
                 NotFoundPageComponent,
                 NavHeaderComponent,
-                NavFooterComponent],
+                NavFooterComponent,
+                LoginPageComponent],
   exports:[NavHeaderComponent, NavFooterComponent],
 })
 export class CoreModule { }
