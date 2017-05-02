@@ -14,3 +14,29 @@ body {
   margin-top: 20px;
   font-size: 30px;
 }
+.u-text-center {
+  text-align: center;
+}
+.u-light-blue-background {
+  background-color: #ADD8E6;
+}
+.u-orange-background {
+  background-color: #FFA500;
+}
+.u-gray-background {
+  background-color: #808080;
+}
+.big-box-container {
+  position: relative;
+  top: -47px;
+  max-width: 1200px;
+  margin: 0 auto;
+  border-radius: .2rem;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, .3);
+}
+.big-box-container-white {
+  background-color: #fff;
+}
+.u-topBuffer48px {
+  margin-top: 48px;
+}

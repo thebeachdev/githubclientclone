@@ -6,6 +6,7 @@ import { CoreModule } from './core/core.module';
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { AngularFireModule } from 'angularfire2';
+import { ResponsiveModule } from 'ng2-responsive';
 
 export const firebaseConfig = {
   apiKey: "AIzaSyA_9uYS1EviBA3-bJ_chRbp27wTDnV1rH0",
@@ -22,6 +23,7 @@ export const firebaseConfig = {
   ],
   imports: [
     BrowserModule,
+    ResponsiveModule,
     AngularFireModule.initializeApp(firebaseConfig),
     FormsModule,
     HttpModule,
