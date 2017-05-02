@@ -1,20 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
 $icon-font-path: '~bootstrap-sass/assets/fonts/bootstrap/';
 @import '~bootstrap-sass/assets/stylesheets/bootstrap';
+@import 'base';
 @import 'variables';
 @import 'colors';
 @import 'utilities';
-body {
-  padding-top: 40px;
-  padding-bottom: 40px;
-  margin: 0;
-  background-color: #eee;
-}
 
-.h1, .h2 {
-  margin-top: 20px;
-  font-size: 30px;
-}
 .big-box-container {
   position: relative;
   top: -47px;
