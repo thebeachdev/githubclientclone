@@ -5,15 +5,4 @@ $icon-font-path: '~bootstrap-sass/assets/fonts/bootstrap/';
 @import 'variables';
 @import 'colors';
 @import 'utilities';
-
-.big-box-container {
-  position: relative;
-  top: -47px;
-  max-width: 1200px;
-  margin: 0 auto;
-  border-radius: .2rem;
-  box-shadow: 0 1px 5px rgba(0, 0, 0, .3);
-}
-.big-box-container-white {
-  background-color: #fff;
-}
+@import 'components/index';
