@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import { CoreRoutingModule } from './core-routing.module';
+import { CoreRoutingModule } from './pages-routing.module';
 import { AboutPageComponent } from './about-page/about-page.component';
 import { ContactPageComponent } from './contact-page/contact-page.component';
 import { PricingPageComponent } from './pricing-page/pricing-page.component';
@@ -15,14 +15,19 @@ import { LoginPageComponent } from './login-page/login-page.component';
     CommonModule,
     CoreRoutingModule
   ],
-  declarations: [AboutPageComponent,
-                ContactPageComponent,
-                PricingPageComponent,
-                   HomePageComponent,
-                NotFoundPageComponent,
-                NavHeaderComponent,
-                NavFooterComponent,
-                LoginPageComponent],
-  exports:[NavHeaderComponent, NavFooterComponent],
+  declarations: [
+    AboutPageComponent,
+    ContactPageComponent,
+    PricingPageComponent,
+    HomePageComponent,
+    NotFoundPageComponent,
+    NavHeaderComponent,
+    NavFooterComponent,
+    LoginPageComponent
+  ],
+  exports: [
+    NavHeaderComponent,
+    NavFooterComponent
+  ],
 })
-export class CoreModule { }
+export class PagesModule { }
