@@ -1,6 +1,9 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { SellingPointsComponent } from '';
+import { FreePageComponent } from './free-page/free-page.component';
+import { BusinessPageComponent } from './business-page/business-page.component';
+import { DeveloperPageComponent } from './developer-page/developer-page.component';
+import { PricingPageComponent } from './pricing-page.component';
 import { PricingPageRoutingModule } from './pricing-page-routing.module';
 
 @NgModule({
@@ -8,6 +11,11 @@ import { PricingPageRoutingModule } from './pricing-page-routing.module';
     CommonModule,
     PricingPageRoutingModule
   ],
-  declarations: []
+  declarations: [
+    FreePageComponent,
+    BusinessPageComponent,
+    DeveloperPageComponent,
+    PricingPageComponent
+  ]
 })
 export class PricingPageModule { }

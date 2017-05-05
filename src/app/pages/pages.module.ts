@@ -25,7 +25,7 @@ import { LoginPageComponent } from './login-page/login-page.component';
     NotFoundPageComponent,
     NavHeaderComponent,
     NavFooterComponent,
-    LoginPageComponent
+    LoginPageComponent,
   ],
   exports: [
     NavHeaderComponent,
