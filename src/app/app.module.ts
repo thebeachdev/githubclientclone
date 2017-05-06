@@ -2,6 +2,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
+import { ComponentsModule } from './components/components.module';
+import { PricingPageModule } from './pricing-page/pricing-page.module';
 import { PagesModule } from './pages/pages.module';
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
@@ -26,6 +28,8 @@ export const firebaseConfig = {
     BrowserModule,
     ResponsiveModule,
     AngularFireModule.initializeApp(firebaseConfig),
+    ComponentsModule,
+    PricingPageModule,
     FormsModule,
     HttpModule,
     PagesModule,
