@@ -16,6 +16,7 @@ import { PricingPageRoutingModule } from './pricing-page-routing.module';
     BusinessPage,
     DeveloperPage,
     PricingPage
-  ]
+  ],
+  exports: []
 })
 export class PricingPageModule { }
