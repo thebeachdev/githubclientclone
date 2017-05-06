@@ -5,7 +5,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './free-page.component.html',
   styleUrls: ['./free-page.component.scss']
 })
-export class FreePageComponent implements OnInit {
+export class FreePage implements OnInit {
 
   constructor() { }
 

@@ -1,27 +1,27 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { PricingPageComponent } from './pricing-page.component';
-import { BusinessPageComponent } from './business-page/business-page.component';
-import { FreePageComponent } from './free-page/free-page.component';
-import { DeveloperPageComponent } from './developer-page/developer-page.component';
+import { PricingPage } from './pricing-page.component';
+import { BusinessPage } from './business-page/business-page.component';
+import { FreePage } from './free-page/free-page.component';
+import { DeveloperPage } from './developer-page/developer-page.component';
 
 
 const routes: Routes = [
   {
     path: 'pricing',
-    component: PricingPageComponent,
+    component: PricingPage,
     children: [
       {
         path: 'business',
-        component: BusinessPageComponent
+        component: BusinessPage
       },
       {
         path:'freeplan',
-        component: FreePageComponent
+        component: FreePage
       },
       {
         path:'developer',
-        component: DeveloperPageComponent
+        component: DeveloperPage
       }
     ]
   },
