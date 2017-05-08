@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { Router } from '@angular/router';
 @Component({
   selector: 'app-free-plan-column',
   templateUrl: './free-plan-column.component.html',
@@ -7,9 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FreePlanColumnComponent implements OnInit {
 
-  constructor() { }
+  constructor(private router: Router) {
 
-  ngOnInit() {
   }
 
+  ngOnInit() {
+
+  }
+  btnClick() {
+    this.router.navigate(['/pricing/freeplan']);
+  }
 }

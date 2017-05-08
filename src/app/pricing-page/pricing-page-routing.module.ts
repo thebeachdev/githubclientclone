@@ -1,9 +1,10 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { PricingPage } from './pricing-page.component';
-import { BusinessPage } from './business-page/business-page.component';
 import { FreePage } from './free-page/free-page.component';
 import { DeveloperPage } from './developer-page/developer-page.component';
+import { BusinessPage } from './business-page/business-page.component';
+
 
 
 const routes: Routes = [
@@ -12,12 +13,12 @@ const routes: Routes = [
     component: PricingPage,
   },
   {
-    path: 'pricing/business',
-    component: BusinessPage
-  },
-  {
     path:'pricing/freeplan',
     component: FreePage
+  },
+  {
+    path: 'pricing/business',
+    component: BusinessPage
   },
   {
     path:'pricing/developer',
