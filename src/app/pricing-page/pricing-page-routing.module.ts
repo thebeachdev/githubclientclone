@@ -10,21 +10,19 @@ const routes: Routes = [
   {
     path: 'pricing',
     component: PricingPage,
-    children: [
-      {
-        path: 'business',
-        component: BusinessPage
-      },
-      {
-        path:'freeplan',
-        component: FreePage
-      },
-      {
-        path:'developer',
-        component: DeveloperPage
-      }
-    ]
   },
+  {
+    path: 'pricing/business',
+    component: BusinessPage
+  },
+  {
+    path:'pricing/freeplan',
+    component: FreePage
+  },
+  {
+    path:'pricing/developer',
+    component: DeveloperPage
+  }
 ];
 
 @NgModule({
