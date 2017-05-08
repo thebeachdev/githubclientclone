@@ -1,11 +1,9 @@
 .u-text-center {
   text-align: center;
 }
-
 .u-topBuffer48px {
   margin-top: 48px;
 }
-
 .u-checkMark {
   position: relative;
   padding-left: 2.5rem;
@@ -16,4 +14,16 @@
 }
 .u-divider-right {
   border-right: 1px solid black;
+}
+.u-plan-vertical-header {
+  padding: 0 8px;
+}
+.u-plan-vertical-header-content {
+  text-align: center;
+}
+.u-plan-vertical-header-fixedHeight300 {
+  height: 300px;
+}
+.u-maxWidth384px {
+  max-width: 384px;
 }
