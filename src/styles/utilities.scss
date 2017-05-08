@@ -21,9 +21,16 @@
 .u-plan-vertical-header-content {
   text-align: center;
 }
-.u-plan-vertical-header-fixedHeight300 {
-  height: 300px;
+.u-plan-vertical-header-fixedHeight200 {
+  height: 200px;
 }
-.u-maxWidth384px {
-  max-width: 384px;
+.u-minHeight35px {
+  min-height: 35px;
+}
+.u-center-block {
+  margin-left: auto;
+  margin-right: auto;
+}
+.u-text-body {
+  font-weight: 600;
 }
