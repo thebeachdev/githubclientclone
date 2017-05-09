@@ -6,14 +6,8 @@ import { Router } from '@angular/router';
   styleUrls: ['./free-plan-column.component.scss']
 })
 export class FreePlanColumnComponent implements OnInit {
-
-  constructor(private router: Router) {
-
-  }
-
-  ngOnInit() {
-
-  }
+  constructor(private router: Router) {}
+  ngOnInit() {}
   btnClick() {
     this.router.navigate(['/pricing/freeplan']);
   }

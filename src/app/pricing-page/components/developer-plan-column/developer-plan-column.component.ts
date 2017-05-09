@@ -10,6 +10,6 @@ export class DeveloperPlanColumnComponent implements OnInit {
   constructor(private router: Router) { }
   ngOnInit() { }
   btnClick() {
-    this.router.navigate(['/pricing/freeplan']);
+    this.router.navigate(['/pricing/developer']);
   }
 }

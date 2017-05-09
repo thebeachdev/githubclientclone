@@ -12,6 +12,6 @@ export class BusinessPlanColumnComponent implements OnInit {
   ngOnInit() {
   }
   btnClick() {
-    this.router.navigate(['/pricing/freeplan']);
+    this.router.navigate(['/pricing/business']);
   }
 }
