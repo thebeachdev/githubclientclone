@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { Router } from '@angular/router';
 @Component({
   selector: 'app-developer-plan-column',
@@ -6,7 +6,7 @@ import { Router } from '@angular/router';
   styleUrls: ['./developer-plan-column.component.scss']
 })
 export class DeveloperPlanColumnComponent implements OnInit {
-
+  @Input() showButton: null;
   constructor(private router: Router) { }
   ngOnInit() { }
   btnClick() {

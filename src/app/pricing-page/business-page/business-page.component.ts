@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-business-page',
@@ -6,7 +6,6 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./business-page.component.scss']
 })
 export class BusinessPage implements OnInit {
-
   constructor() { }
 
   ngOnInit() {

@@ -3,6 +3,6 @@
   <div class="u-minHeight35px u-text-body u-center-block">
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
   </div>
-  <button type="button" class="btn btn-primary" (click)="btnClick()">Sign-Up for Free</button>
+  <button *ngIf="showButton" type="button" class="btn btn-primary" (click)="btnClick()">Sign-Up for Free</button><!-- showButton false read-only -->
 </div>
 <app-selling-points></app-selling-points>
